@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #dcdcde;
+    color: #333;
+    font: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 26.66px;
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+h1, strong {
+    font-weight: 700;
+}
+
+h1, h2, h3 {
+    display: inline-block;
+}
+
+footer, h1 {
+    font-size: 33px;
+}
+
+h2, h3 {
+    font-size: 20px;
+    background-color: #FCEE21;
+}
+
+nav h1,
+footer h1 {
+    font-family: 'Coiny', cursive;
+}
+
+nav h1 strong {
+    font-family: 'Coiny', cursive;
+    font-size: 117.33px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    color: grey;
+}
+
+nav a,
+footer a {
+    margin-left: 20px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 100px;
+    padding: 10px;
+    background-color: #FCEE21;
+}
+
+p {
+    border: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-right: 40px;
+    font-size: 23px;
+}
+
+ol {
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
+
+header img {
+    width: 70%;
+    margin-left: 30%;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size: 41px;
+}
+
+section {
+    width: 45%;
+}
+
+main {
+    font-size: 21px;
+}
+
+.servicios {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
